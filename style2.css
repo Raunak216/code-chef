@@ -1,0 +1,198 @@
+.nav_Logo{
+    height: 40px;
+    margin: 10px 50px 10px 20px;
+}
+#more-drop{
+    margin-right:300px;
+}
+.nav-search-input{
+    border-radius: 30px;
+    background-color:whitesmoke;
+    width: 250px;
+}
+.nav_icon{
+    display: flex;
+    margin: center;
+    align-items: center;
+}
+.nav_icon i{
+    margin: 10px;
+    padding: 5px;
+    opacity: 0.7;
+}
+.nav_icon i:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.banner{
+    width: 100%;
+    height: 42rem;
+    background-image: url(banner1.webp);
+    background-size:contain;
+    background-repeat: no-repeat;
+    animation:change 12s step-end infinite;
+}
+
+@keyframes change{
+    0%{background-image: url('./assets/banner1.webp')}
+    20%{background-image: url('./assets/banner2.webp');}
+    40%{background-image: url('./assets/banner3.webp');}
+    60%{background-image: url('./assets/banner4.webp');}        
+}
+h3{
+    padding-left: 30px;
+}
+.best_sellers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.bestSellers_img{
+    display: flexbox;
+    height: 280px;
+    border-radius: 50px;
+
+}
+.bestSellers_img:hover{
+    box-shadow: 2px 2px 10px black;
+}
+.bestsellers_name{
+    text-align: center;
+    font-size:large;
+    font-weight: bold;
+}
+h5{
+    display:inline;
+    padding:50px;
+}
+#bestSellers-2{
+    padding: 90px;
+}
+
+#bestSellers-3{
+    padding: 70px;
+}
+
+#bestSellers-4{
+    padding: 110px;
+}
+#bestSellers-5{
+    padding: 70px;
+}
+.card{
+    display:inline-block;
+    margin: 30px;
+    margin-top: 50px;
+}
+.card-price{
+    font-weight: 800;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.priceBefore{
+    text-decoration: line-through;
+    font-size: 12px;
+    font-weight: 300;
+}
+.card:hover{
+    width: 100px;
+}
+
+.footer_web{
+    display: flex;
+    height: 24.125rem;
+    width: 100%;
+    padding: 2.63rem;
+    justify-content: space-between;
+    background-color: azure;
+}
+
+.footer_1{
+    width: 19.35rem;
+    padding-right: 30px;
+}
+.footer_1 button{
+    border: none;
+}
+
+.footer_1 ul{
+    padding-left: 0px;
+}
+.footer_1 h3{
+    padding-left: 0px;
+}
+#footer_enter_email{
+    height: 50px;
+    border-radius: 10px;
+    width: 17.4rem;
+    border: none;
+}
+.footer_2{
+    width: 16.125rem;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.footer_2 ul{
+    padding-left: 0px;
+}
+
+.footer_3{
+    width: 10.75rem;
+    padding-right: 30px;
+}
+.footer_3 ul{
+    padding-left: 0px;
+}
+.footer_4{
+    width: 10.75rem;
+    padding-right: 30px;
+}
+.footer_4 ul{
+    padding-left: 0px;
+}
+.footerweb_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+    padding-bottom: 50px;
+    font-weight: 400;
+}
+.footerweb_2 i{
+    margin:1rem ;
+}
+.footerweb_2 i:hover{
+    font-weight:900;
+    cursor: pointer;
+}
+.contact_us_icon{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    
+}
+.contact_icon_1{
+    height: 50px;
+    width: 50px;
+    z-index: 10;
+    position: fixed;
+    top: 80%;
+    left: 95%;
+}
+.contact_icon_1:hover{
+    cursor: pointer;
+}
+.contact_icon_2{
+    height: 50px;
+    width: 50px;
+    z-index: 10;
+    position: fixed;
+    top: 90%;
+    left: 95%;
+}
+.contact_icon_2:hover{
+    cursor: pointer;
+}
